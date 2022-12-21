@@ -132,7 +132,8 @@ For unminifed use:
 <link href="_content/Blazored.Toast/blazored-toast.css" rel="stylesheet" />
 ```
 
-Presumably, if you want to use the Material Icons your project already includes some form of the icons. If not see [Material Design Icons](https://dev.materialdesignicons.com/getting-started/webfont) for the available alternatives.
+If you want to use a library of icons, [Material Design Icons](https://dev.materialdesignicons.com/getting-started/webfont) and [Font awesome icons](https://fontawesome.com/search)) are supported.
+Make sure to add their cdn link to the header of your page or download and add these libraries manually. 
 
 ## Usage
 In order to show a toast you have to inject the `IToastService` into the component or service you want to trigger a toast. You can then call one of the following methods depending on what kind of toast you want to display, passing in a message and an optional heading.
